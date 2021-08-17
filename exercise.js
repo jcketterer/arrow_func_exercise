@@ -8,9 +8,7 @@ function double(arr) {
 
 //ES2015 Arrow function callback
 
-const arr = [1, 2, 3, 4, 5]
-
-const doubleArr = arr.map((val) => val * 2);
+const doubleArr = arr => arr.map((val) => val * 2);
 
 //replace all functions with arrow function
 function squareAndFindEvens(numbers) {
